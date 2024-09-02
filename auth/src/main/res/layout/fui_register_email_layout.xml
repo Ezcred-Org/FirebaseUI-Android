@@ -16,7 +16,7 @@
             Since the TextInputLayouts change size based on whether or not an error
             is showing we use a relative layout to position them absolutely
         -->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email_layout"
             style="@style/FirebaseUI.TextInputLayout.EmailField"
             android:layout_width="match_parent"
@@ -31,9 +31,9 @@
                 android:id="@+id/email"
                 style="@style/FirebaseUI.TextInputEditText.EmailField" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/name_layout"
             style="@style/FirebaseUI.TextInputLayout.NameField"
             android:layout_width="match_parent"
@@ -47,9 +47,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_layout"
             style="@style/FirebaseUI.TextInputLayout.PasswordField"
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
                 android:id="@+id/password"
                 style="@style/FirebaseUI.TextInputEditText.PasswordField" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/create_account_text"

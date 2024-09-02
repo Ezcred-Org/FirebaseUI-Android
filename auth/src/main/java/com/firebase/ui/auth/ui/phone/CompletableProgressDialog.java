@@ -16,7 +16,7 @@ package com.firebase.ui.auth.ui.phone;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;

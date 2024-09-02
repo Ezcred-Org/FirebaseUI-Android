@@ -3,21 +3,22 @@ apply from: 'constants.gradle'
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         mavenLocal()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.1'
-        classpath 'com.google.gms:google-services:3.1.0'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        //classpath 'com.android.tools.build:gradle:7.4.2'
+        //classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:8.5.2'
+        classpath 'com.google.gms:google-services:4.4.2'
+       // classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
 
 allprojects {
     repositories {
         google()
-        jcenter()
         mavenLocal()
         mavenCentral()
     }
@@ -50,7 +51,7 @@ allprojects { project ->
         project.apply plugin: 'com.android.library'
         android {
             compileSdkVersion compileSdk
-            buildToolsVersion buildTools
+           // buildToolsVersion buildTools
         }
 
         // Task to generate sources JAR

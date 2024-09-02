@@ -3,7 +3,7 @@ package com.firebase.ui.auth.ui.email;
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.ColorInt;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v4.content.ContextCompat;

@@ -14,7 +14,7 @@
 
 package com.firebase.ui.auth.ui;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.google.android.gms.tasks.OnFailureListener;

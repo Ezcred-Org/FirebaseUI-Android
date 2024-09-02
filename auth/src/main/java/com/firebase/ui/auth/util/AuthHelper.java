@@ -1,6 +1,6 @@
 package com.firebase.ui.auth.util;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.firebase.ui.auth.ui.FlowParameters;
 import com.firebase.ui.auth.ui.HelperActivityBase;

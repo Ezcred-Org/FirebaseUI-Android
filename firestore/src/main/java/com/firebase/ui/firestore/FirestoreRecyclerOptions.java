@@ -1,7 +1,7 @@
 package com.firebase.ui.firestore;
 
 import android.arch.lifecycle.LifecycleOwner;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryListenOptions;

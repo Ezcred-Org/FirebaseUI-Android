@@ -16,7 +16,7 @@ package com.firebase.ui.auth.ui.phone;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.support.annotation.RestrictTo;
 import android.support.annotation.VisibleForTesting;
 import android.support.v4.app.FragmentActivity;
